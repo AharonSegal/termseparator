@@ -1,4 +1,4 @@
-# termseparator
+# ts
 
 A simple, lightweight utility function designed to print clean, stylized, and colored separator lines directly in your terminal. Perfect for organizing output in data analysis scripts, CLI tools, or development logs.
 
@@ -22,16 +22,17 @@ The function accepts an optional title word (word) and an optional color string 
 
 Python
 
-import termseparator
+import termseparator as ts
+
 
 # 1. Simple, default usage (green solid line)
-termseparator.separator()
+ts.s()
 
 # 2. Separator with a centered title (default green)
-termseparator.separator("DATA LOADING COMPLETE")
+ts.s("DATA LOADING COMPLETE")
 
 # 3. Separator with a different color
-termseparator.separator("PROCESSING DATA", color="blue")
+ts.s("PROCESSING DATA", color="blue")
 
 # 4. Solid red line
-termseparator.separator(color="red")
+ts.s(color="red")
