@@ -1,0 +1,42 @@
+[build-system]
+# Specifies the tools needed to build the package (setuptools is the standard)
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Package name used for pip install: pip install termseparator
+name = "termseparator"
+# The current version of your package
+version = "0.1.0" 
+# Replace with your actual name and email
+authors = [
+  { name="Your Name", email="your.email@example.com" },
+]
+# A short description for PyPI
+description = "A simple, lightweight function to print a stylized, colored separator line in the terminal."
+# Link to your detailed description
+readme = "README.md"
+# Minimum required Python version
+requires-python = ">=3.8"
+# No external dependencies needed for this simple function
+dependencies = []
+
+# Classifiers help users find your package on PyPI
+classifiers = [
+    "Development Status :: 4 - Beta", # Change to 5 - Production/Stable later
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Topic :: Terminals",
+]
+
+[tool.setuptools.packages.find]
+# Tells setuptools to look for packages starting from the current directory ('.')
+where = ["."]
+# Specifies that we want to include the 'termseparator' folder
+include = ["termseparator*"]

@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+termseparator/__init__.py
+termseparator.egg-info/PKG-INFO
+termseparator.egg-info/SOURCES.txt
+termseparator.egg-info/dependency_links.txt
+termseparator.egg-info/top_level.txt
