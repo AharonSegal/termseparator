@@ -1,6 +1,7 @@
 # termseparator/__init__.py
 
-def separator(word=None, color="green"):
+#changed from seperator to s
+def s(word=None, color="green"):
     """
     Prints a stylized separator line with a centered word, with optional color.
     If no word is provided, it prints a solid line.
