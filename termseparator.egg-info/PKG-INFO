@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: termseparator
-Version: 0.1.0
+Version: 0.1.1
 Summary: A simple, lightweight function to print a stylized, colored separator line in the terminal.
 Author-email: Your Name <your.email@example.com>
 Classifier: Development Status :: 4 - Beta
